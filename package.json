@@ -1,0 +1,17 @@
+{
+  "name": "LotterySim",
+  "version": "1.0.0",
+  "description": "A lottery simulation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "7.2.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
