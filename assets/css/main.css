@@ -2103,7 +2103,10 @@
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		margin-left: 0px;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2137,6 +2140,7 @@
 	}
 
 		#main > section {
+			min-height: 100vh;
 			margin: 0;
 			overflow: hidden;
 			padding: 4em 0;
@@ -2189,6 +2193,7 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+				position: relative;
 			}
 
 /* Wide */
@@ -2210,7 +2215,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 0px;
 			}
 
 		/* Main */
@@ -2293,7 +2298,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				margin-left: 0px;
 			}
 
 		/* Main */
