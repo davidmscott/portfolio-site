@@ -211,6 +211,13 @@
 
 /* Grid */
 
+	.div-c-text-l {
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+		text-align: left;
+	}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -469,8 +476,12 @@
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
+		.mbot {
+			margin-bottom: 2em;
+		}
+
 		.row > * {
-			padding: 40px 0 0 40px;
+			padding: 0 0 0 40px;
 		}
 
 		.row {
@@ -684,8 +695,12 @@
 
 	@media screen and (min-width: 961px) and (max-width: 1620px) {
 
+		.mbot {
+			margin-bottom: 2em;
+		}
+
 		.row > * {
-			padding: 40px 0 0 40px;
+			padding: 0 0 0 40px;
 		}
 
 		.row {
@@ -899,8 +914,12 @@
 
 	@media screen and (min-width: 961px) and (max-width: 1320px) {
 
+		.mbot {
+			margin-bottom: 2em;
+		}
+
 		.row > * {
-			padding: 20px 0 0 20px;
+			padding: 0 0 0 20px;
 		}
 
 		.row {
@@ -1114,8 +1133,12 @@
 
 	@media screen and (max-width: 960px) {
 
+		.mbot {
+			margin-bottom: 2em;
+		}
+
 		.row > * {
-			padding: 20px 0 0 20px;
+			padding: 0 0 0 20px;
 		}
 
 		.row {
@@ -1329,8 +1352,17 @@
 
 	@media screen and (max-width: 736px) {
 
+		.mbot {
+			margin-bottom: 2em;
+		}
+
+		.vert-button {
+			display: block;
+			margin-bottom: 0.5em;
+		}
+
 		.row > * {
-			padding: 20px 0 0 20px;
+			padding: 0 0 0 20px;
 		}
 
 		.row {
@@ -1601,7 +1633,7 @@
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.25em;
 	}
 
 	header {
@@ -1893,7 +1925,7 @@
 		background-color: transparent;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 		color: #fff;
-		min-width: 4em;
+		min-width: 9em;
 
 		position: relative;
 		display: inline-block;
@@ -1945,7 +1977,7 @@
 		}
 
 			.item header h3 {
-				font-size: 1.5em;
+				font-size: 1.25em;
 			}
 
 /* Icons */
